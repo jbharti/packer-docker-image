@@ -1,0 +1,7 @@
+--- 
+- hosts: all
+  tasks:
+    - name: message
+      debug: msg="Container {{ inventory_hostname }}"
+    - name: install
+      package: name=git state=latest

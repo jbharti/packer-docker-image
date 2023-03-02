@@ -19,13 +19,6 @@ The Docker builder must run on a machine that has
 
 ### **Installation**
 
-##### **Checkout Repository**
-
--   Check out the project code from git.
-
-```plaintext
-$git clone http://gitserver.digite.in/devops-MS/packer.git
-```
 
 ##### Create the configuration file of Packer
 
